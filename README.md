@@ -109,4 +109,8 @@ Save and wait for deployment
 Your live app will appear at:
 
 https://your-username.github.io/vibetunes/
+##  Live Demo
+
+ Click here to view the live - https://eazytbay.github.io/Vibe-Tunes-Music-app
+
 
