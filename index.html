@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VibeTunes</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1 id="app-title">VibeTunes</h1>
+            <input type="text" id="searchBar" placeholder="Search music..." />
+        </header>
+
+        <!-- Main Player Section -->
+        <section class="player">
+
+            <!-- Album Cover -->
+            <img id="coverImage" src="https://via.placeholder.com/250" alt="Album Cover" />
+
+            <!-- Song Info -->
+            <h2 id="songTitle">Select a Song</h2>
+            <p id="artistName">Artist Name</p>
+
+            <!-- Controls -->
+            <div class="controls">
+                <button id="playBtn">▶</button>
+                <button id="pauseBtn">⏸</button>
+                <button id="nextBtn">⏭</button>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div id="progressBar"></div>
+            </div>
+
+        </section>
+
+        <!-- Top Tracks -->
+        <section class="top-tracks">
+            <h3>Top Tracks</h3>
+
+            <div class="tracks-wrapper" id="topTracks">
+                <!-- Example album covers (Replace dynamically later) -->
+                <img src="https://via.placeholder.com/120" alt="Track 1" class="track-item" />
+                <img src="https://via.placeholder.com/120" alt="Track 2" class="track-item" />
+                <img src="https://via.placeholder.com/120" alt="Track 3" class="track-item" />
+                <img src="https://via.placeholder.com/120" alt="Track 4" class="track-item" />
+                <img src="https://via.placeholder.com/120" alt="Track 5" class="track-item" />
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
